@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trinding movie</title>
+</head>
+
+<body class="bg-dark ">
+    <div id="sideTap" class=" d-flex position-fixed z-index top-0">
+        <div class="bg-dark top-0 mb-5 h-100 text-light text-center py-5  " id="NavBar">
+            <div class="top curser-pointer">
+                <p id="one" >Now Playing</p>
+                <p id="two">Popular</p>
+                <p id="three">Top Rates</p>
+                <p id="four" class>Trinding</p>
+                <p id="five" >Up coming</p>
+                <p id="six"><a href="#contactUsSection" class="text-decoration-none text-white"> Contact Us</a></p>
+            </div>
+            <div class="endIcon mt-5">
+                <i class="fa-brands fa-facebook-f curser-pointer px-2"></i>
+                <i class="fa-brands fa-twitter curser-pointer px-2"></i>
+                <i class="fa-solid fa-globe curser-pointer px-2 "></i>
+                <p class="mt-3">Copyright Â© 2019 All Rights Reserved.</p>
+
+            </div>
+     
+        </div>
+        <div class="bg-light  h-100 " id="LogoTap">
+              <div class=" text-dark text-center h-100">
+                <div class="position-relative h-100">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="" class="w-50 mt-3">
+                    </div>
+                    <div class="position-absolute top-50 list" id="listIcon">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </div>
+                    <div class="position-absolute top-50 list d-none" id="closeIcon">
+                        <i class="fa-solid fa-xmark fa-2x"></i> 
+                    </div>                   
+                    <div class="position-absolute row bottom-0">
+                        <i class="fa-solid fa-globe fa-2x curser-pointer"></i>
+                        <i class="fa-solid fa-share-nodes fa-2x curser-pointer"></i>
+
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+    </div> 
+
+     <div class="container w-75 mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text"
+                    class="form-control text-white bg-transparent text-center border-top-0 border-start-0 border-end-0"
+                    placeholder="get movies by word..." id="searchByWord" >
+            </div>
+            <div class="col-md-6">
+                <input type="text"
+                    class="form-control text-white bg-transparent text-center border-top-0 border-start-0 border-end-0"
+                    placeholder="search..." id="search">
+            </div>
+
+        </div>
+        <div class="row m-4 g-2 h-100" id="myData">
+          
+        </div>
+
+<div class="row g-3" id="contactUsSection">
+    <h2>Contact Us ...</h2>
+          <div class="col-md-6">
+                <input type="text"
+                    class="form-control text-white bg-transparent text-center p-2  border-top-0 border-start-0 border-end-0"
+                    placeholder="Enter Your Name " id="userName">
+            </div>
+            <div class="col-md-6">
+                <input type="email"
+                    class="form-control text-white bg-transparent text-center p-2  border-top-0 border-start-0 border-end-0"
+                    placeholder="Enter Email " id="userEmail">
+            </div>
+            <div class="col-md-6">
+                <input type="number"
+                    class="form-control text-white bg-transparent text-center p-2  border-top-0 border-start-0 border-end-0"
+                    placeholder="Enter phone" id="userPhone">
+            </div>
+            <div class="col-md-6">
+                <input type="number"
+                    class="form-control text-white bg-transparent text-center p-2  border-top-0 border-start-0 border-end-0"
+                    placeholder="Enter Age" id="userAge">
+            </div>
+            <div class="col-md-6">
+                <input type="password"
+                    class="form-control text-white bg-transparent text-center p-2  border-top-0 border-start-0 border-end-0"
+                    placeholder="Enter Password" id="userPass">
+            </div>
+            <div class="col-md-6">
+                <input type="password"
+                    class="form-control text-white bg-transparent text-center p-2  border-top-0 border-start-0 border-end-0"
+                    placeholder="Enter RePassword" id="RePass">
+            </div>
+</div>
+<button type="submit" class="btn mt-3 text-danger border-danger" id="submit"> Submit</button>
+</div>
+<!-- 
+        <script src="js/bootstrap.min.js.map"></script> -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>

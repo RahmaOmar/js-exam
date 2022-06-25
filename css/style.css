@@ -1,0 +1,47 @@
+.iteam {
+    overflow:auto;
+}
+.iteam:hover .layer{
+    top:0%;
+}
+.layer{
+background-color: rgba(33, 112, 230, 0.3);
+width: 100%;
+height: 100%;
+color: white;
+position: absolute;
+top: 100%;
+left: 0%;
+right: 0%;
+bottom: 0%;
+transition: top 0.8s;
+}
+.w-4{
+    width: 4%;
+}
+.list{
+    transform: translate(50%);
+    cursor: pointer;
+}
+.curser-pointer{
+    cursor: pointer;
+}
+.w-15{
+    width: 15%;
+}
+#sideTap{
+    height: 100vh;
+}
+.endIcon i:hover{
+    color: rgb(230, 87, 87);
+}
+
+.top p:hover{
+    color: rgb(230, 87, 87);
+}
+#six a:hover{
+    color: rgb(230, 87, 87);
+}
+.z-index{
+    z-index: 22222;
+}
